@@ -1,0 +1,45 @@
+.choose-dot {
+  width: 832px;
+  text-align: center;
+
+  >h1 {
+    margin-bottom: 67px;
+  }
+}
+
+.dot {
+  .flex-vcenter();
+  font-weight: 500;
+  padding: 10px 34px;
+
+  &__name {
+    font-size: 26px;
+    color: @brand-primary;
+    text-align: left;
+    position: relative;
+    padding-right: 30px;
+    margin-right: 30px;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    width: 80%;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 2px;
+      height: 100%;
+      background: @vertical-divider;
+    }
+  }
+
+  &__num {
+    font-size: 80px;
+    color: rgba(89, 149, 150, 0.212);
+    display: inline-block;
+    line-height: 1;
+    margin-top: 10px;
+    font-weight: 800;
+  }
+}

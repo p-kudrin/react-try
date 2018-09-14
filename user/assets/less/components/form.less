@@ -1,0 +1,44 @@
+.form-control {
+  box-shadow: none;
+  font-weight: 500;
+}
+
+.search-group {
+  position: relative;
+  .form-control {
+    padding-right:@padding-base-horizontal+30px;
+  }
+  > i {
+    position: absolute;
+    right: @padding-base-horizontal;
+    top: @padding-base-vertical;
+    font-size: 20px;
+  }
+}
+
+.control-label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form-horizontal {
+  .form-group {
+    margin-bottom: 26px;
+  }
+
+  @media (min-width: @screen-xs){
+    .control-label {
+      padding-top: 15px;
+    }
+  }
+}
+
+.has-error {
+  .icon-cancel {
+    color: @brand-danger;
+    position: absolute;
+    right: @grid-gutter-width/2 + 10px;
+    top: 15px;
+  }
+}

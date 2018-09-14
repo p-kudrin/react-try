@@ -1,0 +1,22 @@
+.phone-model {
+  &:extend(.brands);
+
+  > li {
+    > a {
+      .flex-center();
+      width: 200px;
+      height: 120px;
+      border: 2px dashed rgb(207, 224, 223);
+      border-radius: 7px;
+      color: @text-color;
+      margin: 0 @grid-gutter-width/2 @grid-gutter-width;
+      position: relative;
+      font-size: 21px;
+      font-weight: 300;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

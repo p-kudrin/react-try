@@ -1,0 +1,26 @@
+.modal,
+.modal-backdrop {
+  margin-top: @modal-offset;
+}
+
+.modal {
+  &-dialog {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) !important;
+  }
+
+  &-content {
+    border-radius: @modal-border-radius;
+  }
+
+  &-header {
+    border-bottom: none;
+  }
+
+  &-body {
+    padding-top: 0;
+  }
+}

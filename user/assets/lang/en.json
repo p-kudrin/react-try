@@ -1,0 +1,165 @@
+{
+  "label": {
+    "locale": "Lang",
+    "search": "SEARCH",
+    "support": {
+      "label": "CUSTOMER SERVICE",
+      "phone": "8 919 390 21 16"
+    }
+  },
+  "menu": {
+    "home": "Home",
+    "points": "Points of Sale",
+    "users": "Users",
+    "templates": "Templates",
+    "reports": "Reports",
+    "logout": "Logout",
+    "login": "Login",
+    "back": "Back"
+  },
+  "login": {
+    "title": "Login Page",
+    "hint": "Default login and password are 'user' and 'password'",
+    "error": {
+      "private": "Please login to access this page",
+      "unauthorized": "You are not authorized to access this page",
+      "badLogin": "Incorrect login or password"
+    },
+    "label": {
+	    "login": "LOGIN",
+	    "password": "PASSWORD"
+    },
+    "button": {
+    	"login": "Log in"
+    }
+  },
+  "tradePoint": {
+  	"hint": "Choose: Point of Sale",
+  	"label": {
+  	  "name": "Name",
+  	  "noTradePoint": "There are no associated Points of Sale"
+  	}
+  },
+  "brand": {
+    "hint": "SELECT A BRAND"
+  },
+  "model": {
+    "hint": "SELECT A MODEL"
+  },
+  "side": {
+    "hint1": "SELECT PROTECTION TYPE",
+    "hint2": "COMPLETE THE FOLLOWING STEPS",
+    "label": {
+	    "sent": "Sent",
+	    "print": "Print"
+    },
+    "template": {
+      "1": "Front",
+      "2": "Front with case",
+      "3": "Back",
+      "4": "Back for textured",
+      "5": "Options"
+    },
+    "info": {
+      "1": "Use sheet size ",
+      "2": "Set the roller to the position ",
+      "3": "Align the sheet and set the lever to the upper position",
+      "4": "Press the PRINT button"
+    },
+    "guaratnee" : {
+      "1": "Warranty",
+      "2": "Enter your order number",
+      "3": "The order number is sent to customer by email after the purchase is registered at bronoskins.com"
+    }
+  },
+  "user": {
+  	"label": {
+  		"org": "Organization",
+  		"points": "Points of Sale",
+  		"info": "User info",
+  		"lastName": "Last Name",
+  		"name": "First Name",
+  		"email": "Email",
+  		"phone": "Phone",
+  		"password": "Password",
+  		"role": "Role",
+  		"points": "%(userName)s's Points of Sale"
+  	},
+  	"button": {
+  		"create": "Save",
+  		"cancel": "Cancel",
+  		"delete": "Delete",
+	        "close": "Close"
+  	},
+    "confirm": {
+    	"deleteHeader": "Delete user",
+    	"deleteBody": "Please confirm user deletion."
+    },
+  	"roles": {
+  		"ROLE_USER": "User",
+  		"ROLE_ADMIN": "Administrator"
+  	}
+  },
+  "report": {
+    "title": "Reports",
+    "label": {
+      "org": "Organization",
+      "timeframe": "Range of dates",
+      "colDateCreated": "Date",
+      "colOrganizationName": "Organization",
+      "colPoint": "Point of Sale",
+      "colUser": "User",
+      "colResType": "Type",
+      "model": "Model",
+      "colSales": "Sales",
+      "colReplacementCount": "Replacements",
+      "colReplacementNumber": "Replacement order number",
+      "rowTotal": "Total",
+      "noData": "Nothing found",
+      "total": "TOTAL"
+    },
+    "button": {
+      "loadReport": "Load",
+      "exportCsv": "Export CSV"
+    }
+  },
+  "error": {
+    "printTemplate": "Unable to perform a cut. Please retry.",
+    "printServerBusy": "Print server is busy. Please retry in a minute."
+  },
+  "servererror": "Server Error",
+  "errorHandler": {
+    "title": "Server Error",
+    "buttonCancel": "Close",
+    "body": "An error has occurred. Details: %(details)s. ",
+    "code": "Error code %(code)s. Please report this code to tech support."
+  },
+  "printPopup" : {
+    "title": "PRESS BUTTON ON PLOTTER",
+    "text":"When the cutting process completes set the lever to the lower position",
+    "buttonCancel":"Close"
+  },
+  "picker": {
+    "label": {
+      "jan": "January",
+      "feb": "February",
+      "mar": "March",
+      "apr": "April",
+      "may": "May",
+      "jun": "June",
+      "jul": "July",
+      "aug": "August",
+      "sep": "September",
+      "oct": "October",
+      "nov": "November",
+      "dec": "December",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  }
+}

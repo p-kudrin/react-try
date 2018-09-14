@@ -1,0 +1,233 @@
+{
+  "label": {
+    "locale": "Language"
+  },
+  "menu": {
+    "orgs": "Organizations",
+    "points": "Trading Points",
+    "users": "Users",
+    "templates": "Templates",
+    "reports": "Reports",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "login": {
+    "title": "Login Page",
+    "hint": "Default login and password are 'user' and 'password'",
+    "error": {
+      "private": "Please login to access this page",
+      "unauthorized": "Please login to access this resource",
+      "badLogin": "Incorrect user and password"
+    },
+    "label": {
+      "login": "Login",
+      "password": "Password"
+    },
+    "button": {
+      "login": "Log in"
+    }
+  },
+  "point": {
+    "hint": "Choose: Trade point",
+    "label": {
+      "org": "Organization",
+      "name": "Name",
+      "users": "%(pointName)s users"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "confirm": {
+      "deleteHeader": "Delete traiding point",
+      "deleteBody": "Please confirm deleting the traiding point."
+    }
+  },
+  "brand": {
+    "hint": "Choose: Brand",
+    "label": {
+      "name": "Brand",
+      "logo": "Logotype",
+      "preview": "Select logotype file..."      
+    },
+    "button": {
+      "create": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "confirm": {
+      "deleteHeader": "Delete brand",
+      "deleteBody": "Please confirm deleting the brand. All connected models and templates also will be deleted.",
+      "deleteLogoHeader": "Delete logotype",
+      "deleteLogoTemplate": "Please confirm deleting the logo."
+      
+    }
+  },
+  "model": {
+    "hint": "Choose: Model",
+    "label": {
+      "name": "Model",
+      "templates": "Templates",
+      "front": "Front panel",
+      "back": "Back panel",
+      "both": "Panel set",
+      "notSelected": "Nothing selected"
+    },
+    "confirm": {
+      "deleteTemplateHeader": "Delete panel",
+      "deleteTemplate": "Please confirm deleting a panel.",
+      "deleteModelHeader": "Delete model",
+      "deleteModelBody": "Please confirm deleting the model. All connected templates also will be deleted.",
+      "deleteModel": "Model without templates will be deleted. Do you want to proceed?"
+    },
+    "button": {
+      "upload": "Upload...",
+      "delete": "Delete",
+      "create": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "side": {
+    "hint": "Choose: Cut type",
+    "template": {
+      "1": "Front",
+      "2": "Front with case",
+      "3": "Back",
+      "4": "Back for textured",
+      "5": "Options"
+    }
+  },
+  "user": {
+    "label": {
+      "org": "Organization",
+      "points": "Trading point",
+      "info": "User information",
+      "lastName": "Last name",
+      "name": "First name",
+      "email": "Email",
+      "phone": "Phone",
+      "password": "Password",
+      "role": "Role",
+      "points": "Trade points of %(userName)s"
+    },
+    "button": {
+      "create": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "close": "Close"
+    },
+    "confirm": {
+      "deleteHeader": "Delete user",
+      "deleteBody": "Please confirm deleting the user."
+    },
+    "roles": {
+      "user": "User",
+      "admin": "Administrator"
+    }
+  },
+  "report": {
+    "title": "Reports",
+    "label": {
+      "org": "Organization",
+      "timeframe": "Dates range",
+      "colDateCreated": "Date",
+      "colOrganizationName": "Organization",
+      "colPoint": "Trading point",
+      "colUser": "User",
+      "colResType": "Type",
+      "model": "Model",
+      "colSales": "Sales",
+      "colReplacementCount": "Replacements",
+      "colReplacementNumber": "Replacement number",
+      "rowTotal": "Total",
+      "noData": "Nothing found",
+      "total": "TOTAL"
+    },
+    "button": {
+      "loadReport": "Load",
+      "exportCsv": "Export CSV"
+    }
+  },
+  "picker": {
+    "label": {
+      "jan": "January",
+      "feb": "February",
+      "mar": "March",
+      "apr": "April",
+      "may": "May",
+      "jun": "June",
+      "jul": "July",
+      "aug": "August",
+      "sep": "September",
+      "oct": "October",
+      "nov": "November",
+      "dec": "December",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "org": {
+    "label": {
+      "name": "Name",
+      "active": "Active",
+      "warranty": "Warranty",
+      "colPointName": "Trading point name",
+      "noPoints": "No trading points",
+      "users": "%(orgName)s users",
+      "points": "%(orgName)s trade points"
+    },
+    "button": {
+      "create": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "close": "Close"
+    },
+    "confirm": {
+      "deleteHeader": "Delete organization",
+      "deleteBody": "Please confirm deleting the organization. All connected trading points and users also will be deleted."
+    }
+  },
+  "servererror": "Server Error",
+  "errorHandler": {
+    "title": "Server Error",
+    "buttonCancel": "Close",
+    "body": "An error has occurred. Details: %(details)s. ",
+    "code": "Error code %(code)s."
+  },
+  "template": {
+    "label": {
+      "command": "Select command file...",
+      "preview": "Select preview file...",
+      "listType":"List type",
+      "listOrientation":"Orientation"
+    },
+    "radio": {
+      "orientation": {
+        "1":"Orientation 1",
+        "2":"Orientation 2",
+        "3":"Orientation 3"
+      },
+      "type": {
+        "1":"List 1",
+        "2":"List 2",
+        "3":"List 3"
+      }
+    },
+    "confirm": {
+      "deleteCommandHeader": "Delete command",
+      "deletePreviewHeader": "Delete preview",
+      "deleteCommandTemplate": "Please confirm deleting the command.",
+      "deletePreviewTemplate": "Please confirm deleting the preview."
+    },
+    "button": {
+      "delete": "Delete",
+      "cancel": "Cancel"
+    }
+
+  }
+}
